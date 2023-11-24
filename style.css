@@ -204,31 +204,27 @@ span {
     background: var(--second-bg-color);
 }
 
-.tentang-saya {
+.deskripsi {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .about-img img {
+    padding-bottom: 20%;
+    max-width: 25rem;
     border-radius: 20rem;
-    width: 24vw;
+}
+
+.about-text p {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 4rem;
 }
 
 .heading {
     text-align: center;
     font-size: 4.5rem;
-}
-
-.about-content h2 {
-    text-align: left;
-    line-height: 1.2;
-}
-
-.about-content p {
-    font-size: 1.6rem;
-    margin: 2rem 0 3rem;
 }
 
 .container {
@@ -849,12 +845,12 @@ span {
         margin-top: 4rem;
     }
 
-    .tentang-saya {
+    .deskripsi {
         flex-direction: column-reverse;
     }
 
     .about-img img {
-        width: 70vw;
+        max-width: 60vw;
         margin-top: 4rem;
     }
 
@@ -957,7 +953,7 @@ span {
     }
 
     .about-img img {
-        width: 90vw;
+        max-width: 70vw;
     }
 
     .footer {
